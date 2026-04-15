@@ -1,6 +1,5 @@
 # ExLLSM Neuron Segmentation
 
-[![DOI](https://zenodo.org/badge/423946304.svg)](https://zenodo.org/badge/latestdoi/423946304)
 
 This is an adaptation of Linus Meienberg's [tool](https://github.com/randomstructures/ExLSM-Image-Segmentation) for segmenting neurons in large scale volumetric images generated via expansion microscopy and lattice light-sheet imaging (ExLLSM). This tool utilizes a trained U-Net model to segment neurons from background and non-specific antibody labels. 
 
@@ -145,7 +144,3 @@ python volumeScalingFactor.py \
     --start 0,0,0 \
     --end 250,250,250
 ```
-
-
-
-
